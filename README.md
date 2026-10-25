@@ -25,6 +25,8 @@ Postman, Chrome DevTools, Figma, YouGile.
 ## 📝 Тестовая документация:
 
 В ходе работы над проектом было проведено комплексное тестирование. Ниже представлены ссылки на полные наборы тест-кейсов в Google Таблицах.
+**1. Анализ документации (ТЗ):**
+* [Отчет об ошибках в требованиях (ТЗ)](https://docs.google.com/document/d/1rTvU6MUgQIQA6XcIh7_46lDYCbsdPUoY4KnHQbp7FB8/edit?usp=sharing)
 * **[UI-тестирование (сравнение с макетами Figma)](https://docs.google.com/spreadsheets/d/13nqsgzhqdVEZIUTYw4JDjAazuzp-pzMKnB43vO_sIbE/edit?usp=sharing)**
 * **[Функциональное тестирование: Главная, каталог, корзина](https://docs.google.com/spreadsheets/d/1pYIXV0TNirWZNPIdpZUJaSgocRJolFUb/edit?usp=sharing&ouid=100371961836438754386&rtpof=true&sd=true)**
 * **[Функциональное тестирование: Регистрация и авторизация](https://docs.google.com/spreadsheets/d/1Q7fn1npKWOpT93xBOfm10Nz0I5-YHQb3/edit?usp=sharing&ouid=100371961836438754386&rtpof=true&sd=true)**
@@ -32,8 +34,5 @@ Postman, Chrome DevTools, Figma, YouGile.
 * **[Тестирование безопасности (XSS, SQL, IDOR)](https://docs.google.com/spreadsheets/d/1TGMmTBytjUJ5MbS3EmSxUi7jLFWOX74LvGqfRU5sylY/edit?usp=sharing)**
 **📊 Итоговые документы:**
 * **[Итоговый отчет о тестировании (Google Docs)](https://docs.google.com/document/d/1Y_mLYAmBktWyhUDoNReTkW2XRuKTUsaku9Uyh21ZWk0/edit?usp=sharing)**
-* **📑 Анализ документации:**
-* [Отчет об ошибках в требованиях (ТЗ)](https://docs.google.com/document/d/1rTvU6MUgQIQA6XcIh7_46lDYCbsdPUoY4KnHQbp7FB8/edit?usp=sharing)
-
 **📊 Итоговые документы:**
 * [Итоговый отчет о тестировании (Google Docs)](https://docs.google.com/document/d/1Y_mLYAmBktWyhUDoNReTkW2XRuKTUsaku9Uyh21ZWk0/edit?usp=sharing)
