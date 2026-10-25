@@ -32,5 +32,6 @@ Postman, Chrome DevTools, Figma, YouGile.
 * **[Функциональное тестирование: Регистрация и авторизация](https://docs.google.com/spreadsheets/d/1Q7fn1npKWOpT93xBOfm10Nz0I5-YHQb3/edit?usp=sharing&ouid=100371961836438754386&rtpof=true&sd=true)**
 * **[Интеграционное тестирование (API + UI): Остатки на складе](https://docs.google.com/spreadsheets/d/1c0Mp36TTFj0Qzf23phzzk8kR4JXij2iWQgCHv-96oe0/edit?usp=sharing)**
 * **[Тестирование безопасности (XSS, SQL, IDOR)](https://docs.google.com/spreadsheets/d/1TGMmTBytjUJ5MbS3EmSxUi7jLFWOX74LvGqfRU5sylY/edit?usp=sharing)**
+  
 **📊 Итоговые документы:**
 * **[Итоговый отчет о тестировании (Google Docs)](https://docs.google.com/document/d/1Y_mLYAmBktWyhUDoNReTkW2XRuKTUsaku9Uyh21ZWk0/edit?usp=sharing)**
