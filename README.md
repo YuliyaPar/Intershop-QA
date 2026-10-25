@@ -32,7 +32,7 @@ Postman, Chrome DevTools, Figma, YouGile.
 **2. UI-тестирование (сравнение с макетами Figma):**
 * [UI-тестирование (сравнение с макетами Figma)](https://docs.google.com/spreadsheets/d/13nqsgzhqdVEZIUTYw4JDjAazuzp-pzMKnB43v0_sIbE/edit?usp=sharing)
 
-**3. Функциональное тестирование:**
+**3. Функциональное тестирование:(включая кросс-браузерное в Chrome и Firefox)**
 * [Функциональное тестирование: Главная, каталог, корзина](https://docs.google.com/spreadsheets/d/1pYIXV0TNirWZNPIdpZUJaSgocRJolFUb/edit?usp=sharing)
 * [Функциональное тестирование: Регистрация и авторизация](https://docs.google.com/spreadsheets/d/1Q7fn1npKWOpT93xBOfm10Nz0I5-YHQb3/edit?usp=sharing)
 
