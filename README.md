@@ -34,5 +34,3 @@ Postman, Chrome DevTools, Figma, YouGile.
 * **[Тестирование безопасности (XSS, SQL, IDOR)](https://docs.google.com/spreadsheets/d/1TGMmTBytjUJ5MbS3EmSxUi7jLFWOX74LvGqfRU5sylY/edit?usp=sharing)**
 **📊 Итоговые документы:**
 * **[Итоговый отчет о тестировании (Google Docs)](https://docs.google.com/document/d/1Y_mLYAmBktWyhUDoNReTkW2XRuKTUsaku9Uyh21ZWk0/edit?usp=sharing)**
-**📊 Итоговые документы:**
-* [Итоговый отчет о тестировании (Google Docs)](https://docs.google.com/document/d/1Y_mLYAmBktWyhUDoNReTkW2XRuKTUsaku9Uyh21ZWk0/edit?usp=sharing)
