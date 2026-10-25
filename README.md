@@ -28,11 +28,19 @@ Postman, Chrome DevTools, Figma, YouGile.
 
 **1. Анализ документации (ТЗ):**
 * [Отчет об ошибках в требованиях (ТЗ)](https://docs.google.com/document/d/1rTvU6MUgQIQA6XcIh7_46lDYCbsdPUoY4KnHQbp7FB8/edit?usp=sharing)
-* **[UI-тестирование (сравнение с макетами Figma)](https://docs.google.com/spreadsheets/d/13nqsgzhqdVEZIUTYw4JDjAazuzp-pzMKnB43vO_sIbE/edit?usp=sharing)**
-* **[Функциональное тестирование: Главная, каталог, корзина](https://docs.google.com/spreadsheets/d/1pYIXV0TNirWZNPIdpZUJaSgocRJolFUb/edit?usp=sharing&ouid=100371961836438754386&rtpof=true&sd=true)**
-* **[Функциональное тестирование: Регистрация и авторизация](https://docs.google.com/spreadsheets/d/1Q7fn1npKWOpT93xBOfm10Nz0I5-YHQb3/edit?usp=sharing&ouid=100371961836438754386&rtpof=true&sd=true)**
-* **[Интеграционное тестирование (API + UI): Остатки на складе](https://docs.google.com/spreadsheets/d/1c0Mp36TTFj0Qzf23phzzk8kR4JXij2iWQgCHv-96oe0/edit?usp=sharing)**
-* **[Тестирование безопасности (XSS, SQL, IDOR)](https://docs.google.com/spreadsheets/d/1TGMmTBytjUJ5MbS3EmSxUi7jLFWOX74LvGqfRU5sylY/edit?usp=sharing)**
-  
-**📊 Итоговые документы:**
-* **[Итоговый отчет о тестировании (Google Docs)](https://docs.google.com/document/d/1Y_mLYAmBktWyhUDoNReTkW2XRuKTUsaku9Uyh21ZWk0/edit?usp=sharing)**
+
+**2. UI-тестирование (сравнение с макетами Figma):**
+* [UI-тестирование (сравнение с макетами Figma)](https://docs.google.com/spreadsheets/d/13nqsgzhqdVEZIUTYw4JDjAazuzp-pzMKnB43v0_sIbE/edit?usp=sharing)
+
+**3. Функциональное тестирование:**
+* [Функциональное тестирование: Главная, каталог, корзина](https://docs.google.com/spreadsheets/d/1pYIXV0TNirWZNPIdpZUJaSgocRJolFUb/edit?usp=sharing)
+* [Функциональное тестирование: Регистрация и авторизация](https://docs.google.com/spreadsheets/d/1Q7fn1npKWOpT93xBOfm10Nz0I5-YHQb3/edit?usp=sharing)
+
+**4. Интеграционное тестирование (API + UI):**
+* [Тестирование остатков на складе](https://docs.google.com/spreadsheets/d/1c0Mp36TTFj0Qzf23phzzk8kR4JXij2iWQgCHv-96oe0/edit?usp=sharing)
+
+**5. Тестирование безопасности:**
+* [Тестирование безопасности (XSS, SQL, IDOR)](https://docs.google.com/spreadsheets/d/1TGMmTBytjUJ5MbS3EmSxUi7jLFWOX74LvGqfRU5sylY/edit?usp=sharing)
+
+**6. Итоговые документы:**
+* [Итоговый отчет о тестировании (Google Docs)](https://docs.google.com/document/d/1Y_mLYAmBktWyhUDoNReTkW2XRuKTUsaku9Uyh21ZWk0/edit?usp=sharing)
