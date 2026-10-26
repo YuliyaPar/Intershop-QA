@@ -103,6 +103,9 @@
 
 **Фактический результат:** Сервер возвращает статус `200 OK` и сохраняет отрицательное значение остатка (например, -5). На сайте отображается некорректный остаток.
 
+<img width="702" height="1160" alt="image" src="https://github.com/user-attachments/assets/c6e249b6-e7bc-45a3-b8ce-c54e8343fbd8" />
+
+
 **Ожидаемый результат:** Сервер возвращает статус `400 Bad Request` и сообщение об ошибке валидации. Остаток на складе не меняется.
 
 <img width="862" height="1250" alt="image" src="https://github.com/user-attachments/assets/17a04a3e-5373-4608-bf7a-8e6b4cb113a9" />
@@ -110,5 +113,21 @@
 <img width="894" height="574" alt="image" src="https://github.com/user-attachments/assets/d5c15add-3e56-46e6-8a8b-5c1bbbe1cec8" />
 
 <img width="882" height="1018" alt="image" src="https://github.com/user-attachments/assets/f1db235e-726e-4704-b612-540d4836c0b6" />
+
+### Баг 5: Ошибка 404 Not Found при загрузке изображения на странице «Каталог»
+* **ID:** ETA3-21
+* **Приоритет:** Medium (Средний)
+* **Окружение:** Google Chrome 147.0.7727.139, macOS Tahoe 26.3.1 (25D2128).
+* **Инструменты:** Chrome DevTools (вкладка Network).
+
+**Шаги воспроизведения:**
+1. Перейти на сайт https://intershop.skillbox.ru
+2. Кликнуть кнопку «Каталог» в главном меню.
+
+**Фактический результат:** Страница «Каталог» успешно загружается. В DevTools отображается ошибка `404 Not Found` на запрос изображения (`https://intershop.skillbox.ru/wp-content/uploads/2025/01/s-l1600-25-600x600.jpg`).
+**Ожидаемый результат:** Страница «Каталог» успешно загружается. Все изображения отображаются корректно. В DevTools нет ошибки 404.
+<img width="862" height="800" alt="image" src="https://github.com/user-attachments/assets/adea3bc7-794e-4170-8a19-7f8e25bd57b5" />
+
+<img width="880" height="788" alt="image" src="https://github.com/user-attachments/assets/5a8a6cca-ae4f-4b09-9546-f77f0e91bfe4" />
 
 
