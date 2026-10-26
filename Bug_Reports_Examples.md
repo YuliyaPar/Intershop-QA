@@ -103,6 +103,10 @@
 
 **Фактический результат:** Сервер возвращает статус `200 OK` и сохраняет отрицательное значение остатка (например, -5). На сайте отображается некорректный остаток.
 
+<img width="1680" height="1086" alt="image" src="https://github.com/user-attachments/assets/557fb9c5-b0d8-4ce5-9349-6a4f134e756d" />
+
+<img width="1750" height="1558" alt="image" src="https://github.com/user-attachments/assets/54dc0342-2f83-43be-a88c-1f85730ce16f" />
+
 <img width="702" height="1160" alt="image" src="https://github.com/user-attachments/assets/c6e249b6-e7bc-45a3-b8ce-c54e8343fbd8" />
 
 
