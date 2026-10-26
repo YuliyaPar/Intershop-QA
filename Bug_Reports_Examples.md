@@ -80,6 +80,10 @@
 
 **Фактический результат:** Пользователь `user2` получает доступ к странице заказа пользователя `user1` по прямой ссылке. Отображаются данные чужого заказа (номер заказа, состав заказа, стоимость и другая информация).
 
+<img width="1794" height="1412" alt="image" src="https://github.com/user-attachments/assets/20f3ee8a-bbc8-4cd4-ba72-23a458c4064d" />
+
+<img width="2156" height="1682" alt="image" src="https://github.com/user-attachments/assets/75002830-7142-4462-ac05-bf910475442a" />
+
 **Ожидаемый результат:** Доступ к заказу другого пользователя запрещён. Данные чужого заказа не отображаются.
 
 <img width="866" height="1232" alt="image" src="https://github.com/user-attachments/assets/33ea1d0a-659e-4d83-bde6-b320da38a4ef" />
@@ -107,9 +111,6 @@
 
 <img width="1750" height="1558" alt="image" src="https://github.com/user-attachments/assets/54dc0342-2f83-43be-a88c-1f85730ce16f" />
 
-<img width="702" height="1160" alt="image" src="https://github.com/user-attachments/assets/c6e249b6-e7bc-45a3-b8ce-c54e8343fbd8" />
-
-
 **Ожидаемый результат:** Сервер возвращает статус `400 Bad Request` и сообщение об ошибке валидации. Остаток на складе не меняется.
 
 <img width="862" height="1250" alt="image" src="https://github.com/user-attachments/assets/17a04a3e-5373-4608-bf7a-8e6b4cb113a9" />
@@ -129,9 +130,44 @@
 2. Кликнуть кнопку «Каталог» в главном меню.
 
 **Фактический результат:** Страница «Каталог» успешно загружается. В DevTools отображается ошибка `404 Not Found` на запрос изображения (`https://intershop.skillbox.ru/wp-content/uploads/2025/01/s-l1600-25-600x600.jpg`).
+
+<img width="702" height="1160" alt="image" src="https://github.com/user-attachments/assets/10ea8aa1-7aaa-4773-8e7d-add91e5bc500" />
+
 **Ожидаемый результат:** Страница «Каталог» успешно загружается. Все изображения отображаются корректно. В DevTools нет ошибки 404.
 <img width="862" height="800" alt="image" src="https://github.com/user-attachments/assets/adea3bc7-794e-4170-8a19-7f8e25bd57b5" />
 
 <img width="880" height="788" alt="image" src="https://github.com/user-attachments/assets/5a8a6cca-ae4f-4b09-9546-f77f0e91bfe4" />
+
+### Баг 6: Осуществляется регистрация с пустым полем «Имя пользователя» (ошибка в Console)
+* **ID:** ETA3-5
+* **Приоритет:** High (Высокий)
+* **Окружение:** Google Chrome 147.0.7727.139, macOS Tahoe 26.3.1 (25D2128).
+* **Инструменты:** Chrome DevTools (вкладка Console).
+
+**Предусловия:**
+1. Перейти на сайт https://intershop2.skillbox.ru
+2. Нажать кнопку «Войти» в правом верхнем углу.
+3. Внизу формы «Мой аккаунт» нажать кнопку «Зарегистрироваться».
+
+**Шаги воспроизведения:**
+1. Оставить поле «Имя пользователя» пустым на форме регистрации.
+2. Заполнить поля «Почта» и «Пароль» валидными значениями (например, почта: `Sergey22@example.com`, пароль: `yuliy17`).
+3. Нажать кнопку «Зарегистрироваться».
+4. Открыть панель разработчика (F12) -> вкладка Console.
+
+**Фактический результат:** Осуществляется регистрация с пустым полем «Имя пользователя». В консоли DevTools отображается ошибка:
+
+Uncaught TypeError: $(...).slick is not a function
+at HTMLDocument.<anonymous> (register/:275:34)
+at i (jquery.js?ver=1.12.4-wp:2:27362)
+at Object.fireWith [as resolveWith] (jquery.js?ver=1.12.4-wp:2:28121)
+at n.ready (jquery.js?ver=1.12.4-wp:2:29914)
+at HTMLDocument.J (jquery.js?ver=1.12.4-wp:2:30276)
+
+**Ожидаемый результат:** Регистрация не осуществляется. Отображается сообщение об ошибке: «Введите корректное имя пользователя».
+
+<img width="854" height="1252" alt="image" src="https://github.com/user-attachments/assets/f6fa4dfc-9228-4c7d-aac4-606574620146" />
+
+<img width="836" height="870" alt="image" src="https://github.com/user-attachments/assets/1c4849cb-b749-445b-a86c-c97f9175783d" />
 
 
