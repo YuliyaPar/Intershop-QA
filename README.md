@@ -28,9 +28,8 @@ Postman, Chrome DevTools, Figma, YouGile.
 
 **1. Анализ документации (ТЗ):**
 * [Отчет об ошибках в требованиях (ТЗ)](https://docs.google.com/document/d/1rTvU6MUgQIQA6XcIh7_46lDYCbsdPUoY4KnHQbp7FB8/edit?usp=sharing)
-
 **2. UI-тестирование (сравнение с макетами Figma):**
-* [UI-тестирование (сравнение с макетами Figma)](https://docs.google.com/spreadsheets/d/13nqsgzhqdVEZIUTYw4JDjAazuzppzMKnB43v0_sIbE/edit?usp=sharing)
+* [UI-тестирование (сравнение с макетами Figma)](https://docs.google.com/spreadsheets/d/13nqsgzhqdVEZIUTYw4JDjAazuzp-pzMKnB43vO_sIbE/edit?usp=sharing)
 
 **3. Функциональное тестирование:(включая кросс-браузерное в Chrome и Firefox)**
 * [Функциональное тестирование: Главная, каталог, корзина](https://docs.google.com/spreadsheets/d/1pYIXV0TNirWZNPIdpZUJaSgocRJolFUb/edit?usp=sharing)
