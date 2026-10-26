@@ -56,4 +56,11 @@
 5. Нажать кнопку «Применить купон».
 
 **Фактический результат:** Применяется скидка 100%. Сумма заказа становится 0,00₽.
+
 **Ожидаемый результат:** Применяется скидка 20%. Сумма заказа пересчитывается корректно.
+
+<img width="846" height="1166" alt="image" src="https://github.com/user-attachments/assets/1a35bd67-8ee4-4c8b-9ad6-3ecde62c463f" />
+
+<img width="876" height="536" alt="image" src="https://github.com/user-attachments/assets/c259b9ea-0085-4b53-a4b5-f961889399e9" />
+
+
