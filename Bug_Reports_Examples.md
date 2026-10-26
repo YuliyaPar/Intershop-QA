@@ -17,11 +17,12 @@
 4. Сравнить итоговую сумму в блоке «Общая сводка» с суммой товаров.
 
 **Фактический результат:** В блоке «Общая сводка» сумма заказов не совпадает с суммой товаров.
+
 **Ожидаемый результат:** В блоке «Общая сводка» отображается корректная сумма, равная сумме всех товаров в корзине.
 
-<img width="886" height="1092" alt="image" src="https://github.com/user-attachments/assets/738e9f38-967f-47ce-9525-d746fbf931bd" />
+(https://github.com/user-attachments/assets/738e9f38-967f-47ce-9525-d746fbf931bd)
 
-<img width="870" height="632" alt="image" src="https://github.com/user-attachments/assets/160d580d-06c5-422d-9132-cfde2b6d6420" />
+(https://github.com/user-attachments/assets/160d580d-06c5-422d-9132-cfde2b6d6420)
 
 ### Баг 2: Отображается кнопка «Заархивировать» вместо «Зарегистрироваться»
 * **ID:** ETAS-3
