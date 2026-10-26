@@ -20,9 +20,9 @@
 
 **Ожидаемый результат:** В блоке «Общая сводка» отображается корректная сумма, равная сумме всех товаров в корзине.
 
-!(https://github.com/user-attachments/assets/738e9f38-967f-47ce-9525-d746fbf931bd)
+![Начало баг-репорта](https://github.com/user-attachments/assets/738e9f38-967f-47ce-9525-d746fbf931bd)
 
-!(https://github.com/user-attachments/assets/160d580d-06c5-422d-9132-cfde2b6d6420)
+![Конец баг-репорта](https://github.com/user-attachments/assets/160d580d-06c5-422d-9132-cfde2b6d6420)
 
 ### Баг 2: Отображается кнопка «Заархивировать» вместо «Зарегистрироваться»
 * **ID:** ETAS-3
