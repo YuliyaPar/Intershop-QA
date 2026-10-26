@@ -44,3 +44,5 @@ Postman, Chrome DevTools, Figma, YouGile.
 
 **6. Итоговые документы:**
 * [Итоговый отчет о тестировании (Google Docs)](https://docs.google.com/document/d/1Y_mLYAmBktWyhUDoNReTkW2XRuKTUsaku9Uyh21ZWk0/edit?usp=sharing)
+
+* * [Примеры баг-репортов (UI, API, Безопасность)](https://github.com/YuliyaPar/Intershop-QA/blob/main/Bug_Reports_Examples.md)
